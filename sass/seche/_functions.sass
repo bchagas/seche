@@ -1,0 +1,5 @@
+@function columns-width($width: $columns-layout)
+  @return ($width * $column-width) + (ceil($width - 1) * $gutter-width)
+
+@function container-width($width: $columns-layout)
+  @return ($width * $column-width) + (($width * $gutter-width) * 2)
