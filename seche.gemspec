@@ -15,4 +15,6 @@ Gem::Specification.new do |gem|
   gem.name          = "seche"
   gem.require_paths = ["lib"]
   gem.version       = Seche::VERSION
+
+  gem.add_dependency 'sass-rails', '~> 3.2.5'
 end
