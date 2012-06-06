@@ -1,5 +1,8 @@
 require "seche/version"
 
 module Seche
-  # Your code goes here...
+  module Rails
+    class Engine < ::Rails::Engine
+    end
+  end
 end
