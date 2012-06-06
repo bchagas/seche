@@ -1,4 +1,11 @@
-//Set container
-
 =container
   width: container-width()
+  overflow: hidden
+  margin: 0 auto
+
+=columns($n)
+  display: inline-block
+  float: left
+  margin-left: $gutter-width
+  margin-right: $gutter-width
+  width: columns-width($n)
