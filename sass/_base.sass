@@ -6,5 +6,11 @@ body
   header
     +container()
 
-  #content
-    +container()
+  .container
+    +container
+
+    > .content
+      +columns(8)
+
+    > aside
+      +columns(4)
