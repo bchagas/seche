@@ -1,0 +1,28 @@
+/* line 6, _base.sass */
+body header {
+  width: 960px;
+  overflow: hidden;
+  margin: 0 auto;
+}
+/* line 9, _base.sass */
+body .container {
+  width: 960px;
+  overflow: hidden;
+  margin: 0 auto;
+}
+/* line 12, _base.sass */
+body .container > .content {
+  display: inline-block;
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 550px;
+}
+/* line 15, _base.sass */
+body .container > aside {
+  display: inline-block;
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 270px;
+}
