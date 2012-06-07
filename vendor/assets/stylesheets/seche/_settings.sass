@@ -1,6 +1,30 @@
 // Seche configuration settings
 
-$layout-width:    960             !default
-$columns-layout:  12              !default
-$column-width:    60px            !default
-$gutter-width:    10px            !default
+$layout-width:       996             !default
+$columns-layout:     12              !default
+$column-width:       63px            !default
+$gutter-width:       10px            !default
+
+@if $layout-width == 1440
+
+  $columns-layout:   16
+  $column-width:     62px
+  $gutter-width:     14px
+
+@else if $layout-width == 1248
+
+  $columns-layout:   16
+  $column-width:     50px
+  $gutter-width:     14px
+
+@else if $layout-width == 780
+
+  $columns-layout:   12
+  $column-width:     45px
+  $gutter-width:     10px
+
+@else if $layout-width == 312
+
+  $columns-layout:   8
+  $column-width:     27px
+  $gutter-width:     6px
