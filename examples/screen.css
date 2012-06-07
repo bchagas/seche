@@ -1,118 +1,128 @@
 /* line 2, _base.sass */
 body header {
-  width: 960px;
-  overflow: hidden;
+  width: 996px;
   margin: 0 auto;
 }
 /* line 5, _base.sass */
 body .container {
-  background: url("images/12_col.gif") repeat-y;
-  width: 960px;
-  overflow: hidden;
+  width: 996px;
   margin: 0 auto;
   height: 500px;
 }
-/* line 12, _base.sass */
+/* line 11, _base.sass */
 body .container .col-1 {
+  background: red;
   display: inline-block;
   float: left;
   margin-left: 10px;
   margin-right: 10px;
-  width: 60px;
+  width: 63px;
 }
-/* line 12, _base.sass */
+/* line 11, _base.sass */
 body .container .col-2 {
+  background: red;
   display: inline-block;
   float: left;
   margin-left: 10px;
   margin-right: 10px;
-  width: 60px;
+  width: 63px;
 }
-/* line 12, _base.sass */
+/* line 11, _base.sass */
 body .container .col-3 {
+  background: red;
   display: inline-block;
   float: left;
   margin-left: 10px;
   margin-right: 10px;
-  width: 60px;
+  width: 63px;
 }
-/* line 12, _base.sass */
+/* line 11, _base.sass */
 body .container .col-4 {
+  background: red;
   display: inline-block;
   float: left;
   margin-left: 10px;
   margin-right: 10px;
-  width: 60px;
+  width: 63px;
 }
-/* line 12, _base.sass */
+/* line 11, _base.sass */
 body .container .col-5 {
+  background: red;
   display: inline-block;
   float: left;
   margin-left: 10px;
   margin-right: 10px;
-  width: 60px;
+  width: 63px;
 }
-/* line 12, _base.sass */
+/* line 11, _base.sass */
 body .container .col-6 {
+  background: red;
   display: inline-block;
   float: left;
   margin-left: 10px;
   margin-right: 10px;
-  width: 60px;
+  width: 63px;
 }
-/* line 12, _base.sass */
+/* line 11, _base.sass */
 body .container .col-7 {
+  background: red;
   display: inline-block;
   float: left;
   margin-left: 10px;
   margin-right: 10px;
-  width: 60px;
+  width: 63px;
 }
-/* line 12, _base.sass */
+/* line 11, _base.sass */
 body .container .col-8 {
+  background: red;
   display: inline-block;
   float: left;
   margin-left: 10px;
   margin-right: 10px;
-  width: 60px;
+  width: 63px;
 }
-/* line 12, _base.sass */
+/* line 11, _base.sass */
 body .container .col-9 {
+  background: red;
   display: inline-block;
   float: left;
   margin-left: 10px;
   margin-right: 10px;
-  width: 60px;
+  width: 63px;
 }
-/* line 12, _base.sass */
+/* line 11, _base.sass */
 body .container .col-10 {
+  background: red;
   display: inline-block;
   float: left;
   margin-left: 10px;
   margin-right: 10px;
-  width: 60px;
+  width: 63px;
 }
-/* line 12, _base.sass */
+/* line 11, _base.sass */
 body .container .col-11 {
+  background: red;
   display: inline-block;
   float: left;
   margin-left: 10px;
   margin-right: 10px;
-  width: 60px;
+  width: 63px;
 }
-/* line 12, _base.sass */
+/* line 11, _base.sass */
 body .container .col-12 {
+  background: red;
   display: inline-block;
   float: left;
   margin-left: 10px;
   margin-right: 10px;
-  width: 60px;
+  width: 63px;
 }
-/* line 15, _base.sass */
+/* line 14, _base.sass */
 body .container > aside {
+  background: red;
   display: inline-block;
   float: left;
   margin-left: 10px;
   margin-right: 10px;
-  width: 270px;
+  width: 282px;
 }
