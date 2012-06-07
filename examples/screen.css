@@ -1,22 +1,112 @@
-/* line 6, _base.sass */
+/* line 2, _base.sass */
 body header {
   width: 960px;
   overflow: hidden;
   margin: 0 auto;
 }
-/* line 9, _base.sass */
+/* line 5, _base.sass */
 body .container {
+  background: url("images/12_col.gif") repeat-y;
   width: 960px;
   overflow: hidden;
   margin: 0 auto;
+  height: 500px;
 }
 /* line 12, _base.sass */
-body .container > .content {
+body .container .col-1 {
   display: inline-block;
   float: left;
   margin-left: 10px;
   margin-right: 10px;
-  width: 550px;
+  width: 60px;
+}
+/* line 12, _base.sass */
+body .container .col-2 {
+  display: inline-block;
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 60px;
+}
+/* line 12, _base.sass */
+body .container .col-3 {
+  display: inline-block;
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 60px;
+}
+/* line 12, _base.sass */
+body .container .col-4 {
+  display: inline-block;
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 60px;
+}
+/* line 12, _base.sass */
+body .container .col-5 {
+  display: inline-block;
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 60px;
+}
+/* line 12, _base.sass */
+body .container .col-6 {
+  display: inline-block;
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 60px;
+}
+/* line 12, _base.sass */
+body .container .col-7 {
+  display: inline-block;
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 60px;
+}
+/* line 12, _base.sass */
+body .container .col-8 {
+  display: inline-block;
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 60px;
+}
+/* line 12, _base.sass */
+body .container .col-9 {
+  display: inline-block;
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 60px;
+}
+/* line 12, _base.sass */
+body .container .col-10 {
+  display: inline-block;
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 60px;
+}
+/* line 12, _base.sass */
+body .container .col-11 {
+  display: inline-block;
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 60px;
+}
+/* line 12, _base.sass */
+body .container .col-12 {
+  display: inline-block;
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 60px;
 }
 /* line 15, _base.sass */
 body .container > aside {

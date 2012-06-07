@@ -1,16 +1,17 @@
-$columns: 12
-$column-width: 60px
-$gutter-width: 10px
-
 body
   header
-    +container()
+    +container(960)
 
   .container
-    +container
+    background: url('images/12_col.gif') repeat-y
+    +container(960)
 
-    > .content
-      +columns(8)
+    height: 500px
+
+    @for $i from 1 through 12
+      .col-#{$i}
+        +columns(1)
 
     > aside
       +columns(4)
+
