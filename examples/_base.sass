@@ -3,13 +3,18 @@ body
     +container()
 
   .container
+    background: url('images/960-grid.gif') repeat-y center top
     +container()
 
     height: 500px
 
-    @for $i from 1 through 12
-      .col-#{$i}
-        +columns(1)
+    .col-8
+      +columns(8)
+      text-align: justify
+
+    aside
+      +columns(4)
+      text-align: justify
 
     > aside
       +columns(4)

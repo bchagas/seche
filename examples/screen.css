@@ -1,115 +1,33 @@
 /* line 2, _base.sass */
 body header {
-  width: 996px;
-  margin: 0 auto;
-}
+  width: 960px;
+  margin: 0 auto; }
 /* line 5, _base.sass */
 body .container {
-  width: 996px;
+  background: url("images/960-grid.gif") repeat-y center top;
+  width: 960px;
   margin: 0 auto;
-  height: 500px;
-}
-/* line 11, _base.sass */
-body .container .col-1 {
-  display: inline-block;
-  float: left;
-  margin-left: 10px;
-  margin-right: 10px;
-  width: 63px;
-}
-/* line 11, _base.sass */
-body .container .col-2 {
-  display: inline-block;
-  float: left;
-  margin-left: 10px;
-  margin-right: 10px;
-  width: 63px;
-}
-/* line 11, _base.sass */
-body .container .col-3 {
-  display: inline-block;
-  float: left;
-  margin-left: 10px;
-  margin-right: 10px;
-  width: 63px;
-}
-/* line 11, _base.sass */
-body .container .col-4 {
-  display: inline-block;
-  float: left;
-  margin-left: 10px;
-  margin-right: 10px;
-  width: 63px;
-}
-/* line 11, _base.sass */
-body .container .col-5 {
-  display: inline-block;
-  float: left;
-  margin-left: 10px;
-  margin-right: 10px;
-  width: 63px;
-}
-/* line 11, _base.sass */
-body .container .col-6 {
-  display: inline-block;
-  float: left;
-  margin-left: 10px;
-  margin-right: 10px;
-  width: 63px;
-}
-/* line 11, _base.sass */
-body .container .col-7 {
-  display: inline-block;
-  float: left;
-  margin-left: 10px;
-  margin-right: 10px;
-  width: 63px;
-}
-/* line 11, _base.sass */
-body .container .col-8 {
-  display: inline-block;
-  float: left;
-  margin-left: 10px;
-  margin-right: 10px;
-  width: 63px;
-}
-/* line 11, _base.sass */
-body .container .col-9 {
-  display: inline-block;
-  float: left;
-  margin-left: 10px;
-  margin-right: 10px;
-  width: 63px;
-}
-/* line 11, _base.sass */
-body .container .col-10 {
-  display: inline-block;
-  float: left;
-  margin-left: 10px;
-  margin-right: 10px;
-  width: 63px;
-}
-/* line 11, _base.sass */
-body .container .col-11 {
-  display: inline-block;
-  float: left;
-  margin-left: 10px;
-  margin-right: 10px;
-  width: 63px;
-}
-/* line 11, _base.sass */
-body .container .col-12 {
-  display: inline-block;
-  float: left;
-  margin-left: 10px;
-  margin-right: 10px;
-  width: 63px;
-}
-/* line 14, _base.sass */
-body .container > aside {
-  display: inline-block;
-  float: left;
-  margin-left: 10px;
-  margin-right: 10px;
-  width: 282px;
-}
+  height: 500px; }
+  /* line 11, _base.sass */
+  body .container .col-8 {
+    display: inline-block;
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 620px;
+    text-align: justify; }
+  /* line 15, _base.sass */
+  body .container aside {
+    display: inline-block;
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 300px;
+    text-align: justify; }
+  /* line 19, _base.sass */
+  body .container > aside {
+    display: inline-block;
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 300px; }
