@@ -3,6 +3,14 @@
 $base-font-size:        16px !default
 $base-line-height:      24px !default
 $rhythm-border-style:   solid !default
+$font-unit: if($relative-font-sizing, 1em, $base-font-size) !default;
 
 body
   font-size: $base-font-size
+  font-family: 'Helvetica', sans-serif
+
+  @for $i from 1 through 6
+    h#{$i}
+      font-size: 12 + ($i * 2)#{'px'}
+      line-height: $base-line-height * 1.125
+      margin: 0 0 1.7143em 0
