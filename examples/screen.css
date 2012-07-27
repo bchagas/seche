@@ -32,6 +32,41 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
+/* line 7, ../vendor/assets/stylesheets/seche/_typography.sass */
+body {
+  font-size: 16px;
+  font-family: "Helvetica", sans-serif; }
+  /* line 12, ../vendor/assets/stylesheets/seche/_typography.sass */
+  body h1 {
+    font-size: 14px;
+    line-height: 24px;
+    margin: 0 0 1.714em 0; }
+  /* line 12, ../vendor/assets/stylesheets/seche/_typography.sass */
+  body h2 {
+    font-size: 16px;
+    line-height: 48px;
+    margin: 0 0 1.714em 0; }
+  /* line 12, ../vendor/assets/stylesheets/seche/_typography.sass */
+  body h3 {
+    font-size: 18px;
+    line-height: 72px;
+    margin: 0 0 1.714em 0; }
+  /* line 12, ../vendor/assets/stylesheets/seche/_typography.sass */
+  body h4 {
+    font-size: 20px;
+    line-height: 96px;
+    margin: 0 0 1.714em 0; }
+  /* line 12, ../vendor/assets/stylesheets/seche/_typography.sass */
+  body h5 {
+    font-size: 22px;
+    line-height: 120px;
+    margin: 0 0 1.714em 0; }
+  /* line 12, ../vendor/assets/stylesheets/seche/_typography.sass */
+  body h6 {
+    font-size: 24px;
+    line-height: 144px;
+    margin: 0 0 1.714em 0; }
+
 /* line 2, _base.sass */
 body header {
   width: 960px;
@@ -44,13 +79,14 @@ body .container {
   height: 500px; }
   /* line 11, _base.sass */
   body .container .col-8 {
+    background: url("images/baseline_24px.png") repeat center top;
     display: inline-block;
     float: left;
     margin-left: 10px;
     margin-right: 10px;
     width: 620px;
     text-align: justify; }
-  /* line 15, _base.sass */
+  /* line 16, _base.sass */
   body .container aside {
     display: inline-block;
     float: left;
@@ -58,7 +94,7 @@ body .container {
     margin-right: 10px;
     width: 300px;
     text-align: justify; }
-  /* line 19, _base.sass */
+  /* line 20, _base.sass */
   body .container > aside {
     display: inline-block;
     float: left;
