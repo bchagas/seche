@@ -1,7 +1,5 @@
 # Seche
 
-TODO: Write a gem description
-
 ## Installation
 
 Add this line to your application's Gemfile:
@@ -17,8 +15,6 @@ Or install it yourself as:
     $ gem install seche
 
 ## Usage
-
-TODO: Write usage instructions here
 
 ## Contributing
 
