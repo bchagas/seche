@@ -1,10 +1,15 @@
 # Seche
 
+Grid system for Rails Applications
+
 ## Installation
 
-Add this line to your application's Gemfile:
+Add the seche gem line to group called :assets in your application's Gemfile:
 
-    gem 'seche'
+    group :assets do
+      gem 'sass-rails'
+      gem 'seche'
+    end
 
 And then execute:
 
@@ -15,6 +20,8 @@ Or install it yourself as:
     $ gem install seche
 
 ## Usage
+
+  @import seche
 
 ## Contributing
 
