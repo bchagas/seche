@@ -9,3 +9,9 @@
   margin-left: $gutter-width
   margin-right: $gutter-width
   width: columns-width($n)
+
+  @if $n == 12
+    display: block
+    float: none
+    margin: 0 auto
+    width: container-width() - ($gutter-width * 2)
