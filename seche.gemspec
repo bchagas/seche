@@ -5,8 +5,8 @@ Gem::Specification.new do |gem|
   gem.authors       = ["Bruno Chagas"]
   gem.email         = ["brunochagasweb@gmail.com"]
   gem.date          = Date.today
-  gem.description   = %q{TODO: Write a gem description}
-  gem.summary       = %q{TODO: Write a gem summary}
+  gem.description   = %q{Seche is a grid system for Rails Applications}
+  gem.summary       = %q{Seche is a grid system for Rails Applications}
   gem.homepage      = ""
 
   gem.files         = `git ls-files`.split($\)
