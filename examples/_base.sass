@@ -1,12 +1,14 @@
 body
   header
-    +container()
+    background: url('images/960-grid.gif') repeat-y center top
+    +columns(12)
+    padding-top: 24px
+    overflow: hidden
 
   .container
     background: url('images/960-grid.gif') repeat-y center top
     +container()
-
-    height: 500px
+    min-height: 500px
 
     .col-8
       background: url('images/baseline_24px.png') repeat center top

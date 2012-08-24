@@ -59,13 +59,24 @@ html > body {
   font-size: 12px; }
 
 body header {
-  width: 960px;
-  margin: 0 auto; }
+  background: url("images/960-grid.gif") repeat-y center top;
+  display: inline-block;
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 940px;
+  display: block;
+  float: none;
+  margin: 0 auto;
+  width: 960px-20px;
+  padding-top: 24px;
+  overflow: hidden; }
 body .container {
   background: url("images/960-grid.gif") repeat-y center top;
   width: 960px;
-  margin: 0 auto;
-  height: 500px; }
+  margin: 0 auto 20px;
+  overflow: hidden;
+  min-height: 500px; }
   body .container .col-8 {
     background: url("images/baseline_24px.png") repeat center top;
     display: inline-block;
