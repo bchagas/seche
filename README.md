@@ -21,7 +21,9 @@ Or install it yourself as:
 
 ## Usage
 
+  in sass/scss file:
   @import seche
+
 
 ## Contributing
 
