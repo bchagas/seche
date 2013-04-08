@@ -6,19 +6,15 @@ html
   body
     font-size: $base-font-size
     font-family: 'Helvetica', sans-serif
-
-  > body
-    font-size: 12px
+    line-height: 1.5em
 
 @for $i from 1 through 6
   h#{$i}
-    $font-size: 26 - ($i * 2)
-    font-size: $font-size#{'px'}
-    line-height: $font-size*1.8#{'px'}
+    font-size: 26px - ($i * 2)
+    line-height: $base-line-height
     margin-bottom: $base-line-height
 
-p, blockquote
+p, ul, blockquote, pre, td, th, label
+  font-size: $base-font-size
   line-height: $base-line-height
-  margin-bottom: $base-line-height
-
-
+  margin: 0 0 $base-line-height 0
