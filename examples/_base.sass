@@ -1,16 +1,18 @@
 body
   header
     background: url('images/960-grid.gif') repeat-y center top
-    +columns(12)
-    padding-top: 24px
-    overflow: hidden
+    +container()
+
+    > h1
+      padding: 20px 0
+      +column(12)
 
   .container
     background: url('images/960-grid.gif') repeat-y center top
     +container()
     min-height: 500px
 
-    .col-8
+    > div
       background: url('images/baseline_24px.png') repeat center top
       +column(8)
       text-align: justify

@@ -1,65 +1,110 @@
+/* line 1, /Users/brunochagasweb/Documents/workspace/projects/seche/examples/../vendor/assets/stylesheets/seche/_reset.sass */
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
   margin: 0;
   padding: 0;
   border: 0;
   font-size: 100%;
   font: inherit;
-  vertical-align: baseline; }
+  vertical-align: baseline;
+}
 
+/* line 9, /Users/brunochagasweb/Documents/workspace/projects/seche/examples/../vendor/assets/stylesheets/seche/_reset.sass */
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
-  display: block; }
+  display: block;
+}
 
+/* line 12, /Users/brunochagasweb/Documents/workspace/projects/seche/examples/../vendor/assets/stylesheets/seche/_reset.sass */
 body {
-  line-height: 1; }
+  line-height: 1;
+}
 
+/* line 15, /Users/brunochagasweb/Documents/workspace/projects/seche/examples/../vendor/assets/stylesheets/seche/_reset.sass */
 ol, ul {
-  list-style: none; }
+  list-style: none;
+}
 
+/* line 18, /Users/brunochagasweb/Documents/workspace/projects/seche/examples/../vendor/assets/stylesheets/seche/_reset.sass */
 blockquote, q {
-  quotes: none; }
-  blockquote:before, blockquote:after, blockquote:before, blockquote:after, q:before, q:after, q:before, q:after {
-    content: "";
-    content: none; }
+  quotes: none;
+}
+/* line 21, /Users/brunochagasweb/Documents/workspace/projects/seche/examples/../vendor/assets/stylesheets/seche/_reset.sass */
+blockquote:before, blockquote:after, blockquote:before, blockquote:after, q:before, q:after, q:before, q:after {
+  content: "";
+  content: none;
+}
 
+/* line 25, /Users/brunochagasweb/Documents/workspace/projects/seche/examples/../vendor/assets/stylesheets/seche/_reset.sass */
 table {
   border-collapse: collapse;
-  border-spacing: 0; }
+  border-spacing: 0;
+}
 
+/* line 6, ../vendor/assets/stylesheets/seche/_typography.sass */
 html body {
   font-size: 14px;
-  font-family: "Helvetica", sans-serif; }
-  html body h1 {
-    font-size: 24px;
-    line-height: 24px;
-    margin-bottom: 24px; }
-  html body h2 {
-    font-size: 22px;
-    line-height: 24px;
-    margin-bottom: 24px; }
-  html body h3 {
-    font-size: 20px;
-    line-height: 24px;
-    margin-bottom: 24px; }
-  html body h4 {
-    font-size: 18px;
-    line-height: 24px;
-    margin-bottom: 24px; }
-  html body h5 {
-    font-size: 16px;
-    line-height: 24px;
-    margin-bottom: 24px; }
-  html body h6 {
-    font-size: 14px;
-    line-height: 24px;
-    margin-bottom: 24px; }
-  html body p, html body blockquote {
-    line-height: 24px;
-    margin-bottom: 24px; }
-html > body {
-  font-size: 12px; }
+  font-family: "Helvetica", sans-serif;
+  line-height: 1.5em;
+}
 
+/* line 12, ../vendor/assets/stylesheets/seche/_typography.sass */
+h1 {
+  font-size: 24px;
+  line-height: 24px;
+  margin-bottom: 24px;
+}
+
+/* line 12, ../vendor/assets/stylesheets/seche/_typography.sass */
+h2 {
+  font-size: 22px;
+  line-height: 24px;
+  margin-bottom: 24px;
+}
+
+/* line 12, ../vendor/assets/stylesheets/seche/_typography.sass */
+h3 {
+  font-size: 20px;
+  line-height: 24px;
+  margin-bottom: 24px;
+}
+
+/* line 12, ../vendor/assets/stylesheets/seche/_typography.sass */
+h4 {
+  font-size: 18px;
+  line-height: 24px;
+  margin-bottom: 24px;
+}
+
+/* line 12, ../vendor/assets/stylesheets/seche/_typography.sass */
+h5 {
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 24px;
+}
+
+/* line 12, ../vendor/assets/stylesheets/seche/_typography.sass */
+h6 {
+  font-size: 14px;
+  line-height: 24px;
+  margin-bottom: 24px;
+}
+
+/* line 17, ../vendor/assets/stylesheets/seche/_typography.sass */
+p, ul, blockquote, pre, td, th, label {
+  font-size: 14px;
+  line-height: 24px;
+  margin: 0 0 24px 0;
+}
+
+/* line 2, _base.sass */
 body header {
   background: url("images/960-grid.gif") repeat-y center top;
+  width: 960px;
+  margin: 0 auto 20px;
+  overflow: hidden;
+}
+/* line 6, _base.sass */
+body header > h1 {
+  padding: 20px 0;
   display: inline-block;
   float: left;
   margin-left: 10px;
@@ -69,32 +114,39 @@ body header {
   float: none;
   margin: 0 auto;
   width: 960px-20px;
-  padding-top: 24px;
-  overflow: hidden; }
+}
+/* line 10, _base.sass */
 body .container {
   background: url("images/960-grid.gif") repeat-y center top;
   width: 960px;
   margin: 0 auto 20px;
   overflow: hidden;
-  min-height: 500px; }
-  body .container .col-8 {
-    background: url("images/baseline_24px.png") repeat center top;
-    display: inline-block;
-    float: left;
-    margin-left: 10px;
-    margin-right: 10px;
-    width: 620px;
-    text-align: justify; }
-  body .container aside {
-    display: inline-block;
-    float: left;
-    margin-left: 10px;
-    margin-right: 10px;
-    width: 300px;
-    text-align: justify; }
-  body .container > aside {
-    display: inline-block;
-    float: left;
-    margin-left: 10px;
-    margin-right: 10px;
-    width: 300px; }
+  min-height: 500px;
+}
+/* line 15, _base.sass */
+body .container > div {
+  background: url("images/baseline_24px.png") repeat center top;
+  display: inline-block;
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 620px;
+  text-align: justify;
+}
+/* line 20, _base.sass */
+body .container aside {
+  display: inline-block;
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 300px;
+  text-align: justify;
+}
+/* line 24, _base.sass */
+body .container > aside {
+  display: inline-block;
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 300px;
+}
