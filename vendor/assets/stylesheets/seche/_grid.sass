@@ -1,14 +1,9 @@
-=background-debugger
+=debugger
   background-image: url('../images/960-grid.gif'), url('../images/baseline_24px.png')
   background-position: center top, center top
   background-repeat: repeat-y, repeat
 
 =container(
-  $debugger: false
-  )
-
-  @if $debuuger == 'debugger'
-    +background-debugger
   width: container-width()
   margin: 0 auto 20px
   overflow: hidden
