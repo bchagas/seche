@@ -5,8 +5,9 @@
 
 =container(
   $debugger: false
-)
-  @if $debuuger
+  )
+
+  @if $debuuger == 'debugger'
     +background-debugger
   width: container-width()
   margin: 0 auto 20px
