@@ -1,8 +1,13 @@
 require "seche/version"
 
 module Seche
-  module Rails
-    class Engine < ::Rails::Engine
+  if defined?(Rails) && defined?(Rails::Engine)
+    module Rails
+      class Engine < ::Rails::Engine
+      end
     end
+  else
+    Sass.load_paths << File.expand_path("../../app/assets/stylesheets", __FILE__)
   end
 end
+
